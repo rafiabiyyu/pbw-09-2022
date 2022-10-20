@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -34,27 +34,56 @@
             </ul>
         </div>
     </header>
-    
-   <div class="container">
-    <div class="contact">
-        <div class="judul">
-            Contact Me
-        </div>
-        <form action="/action_page.php">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Masukan email anda">
-            <label for="pesan">Pesan</label>
-            <textarea id="pesan" name="pesan" placeholder="Masukan pesan anda" style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-   </div>
-     <!--Footer-->
-     <footer>
-        <div class="container">
-            <small>Copyright &copy;2022 - Rafi Abiyyu Ramadhan. All Right Reserved.</small>
-        </div>
-    </footer>
-</body>
+	<head>	
+		<tittle>Form</tittle>
+	</head>
+	<body>
+		<h1>Form</h1>
+		<form name="fmhs">
+		<table>
+			<tr>
+				<td>Nim</td>
+				<td><input type ="number"></td>
+			</tr>
+			<tr>
+				<td>Nama</td>
+				<td><input type ="text"></td>
+			</tr>
+			<tr>
+				<td>Tgl Lhr</td>
+				<td><input type ="date"></td>
+			</tr>
+			<tr>
+				<td>Program Studi</td>
+				<td>
+					<select>
+						<option>Pilih Prodi</option>
+						<option>S1 - Teknik Informatika</option>
+						<option>S1 - Sistem Informasi</option>
+						<option>D4 - Teknik Informatika</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Bidang Minat</td>
+				<td>
+					<input type ="checkbox"><label>
+					web programing</label><br>
+					<input type ="checkbox"><label>
+					Mobile programing</label><br>
+					<input type ="checkbox"><label>
+					Data Science</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Berkas CV</td>
+				<td><input type ="file"></td>
+			</tr>
+			<tr>
+				<td align="right"><input type ="submit"></td>
+				<td></td>
+			</tr>
+		</table>
+		</form>
+	</body>
 </html>
